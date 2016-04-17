@@ -33,3 +33,10 @@ Configure MariaDB
   $ sudo mysql -e "FLUSH PRIVILEGES;" -uroot
   $ sudo mysql -h localhost -u powerdns --password=PDNSPASSWORD powerdns < powerdns.sql
 ```
+
+
+To Test synchronization result:
+```
+  $ dig SOA @src_dns_server_ip your_domain
+  $ dih SOA @dst_dns_server_ip your_domain
+```
