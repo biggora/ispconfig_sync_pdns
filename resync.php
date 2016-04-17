@@ -17,10 +17,10 @@ $srcUser = '';
 $srcPass = '';
 $srcBase = '';
 
-$dstHost = '';
-$dstUser = '';
-$dstPass = '';
-$dstBase = '';
+$dstHost = 'localhost';
+$dstUser = 'powerdns';
+$dstPass = 'PDNSPASSWORD';
+$dstBase = 'powerdns';
 
 /**
  * create connection to ispconfig database
