@@ -38,5 +38,5 @@ Configure MariaDB
 To Test synchronization result:
 ```
   $ dig SOA @src_dns_server_ip your_domain
-  $ dih SOA @dst_dns_server_ip your_domain
+  $ dig SOA @dst_dns_server_ip your_domain
 ```
